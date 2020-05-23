@@ -1,354 +1,354 @@
-                                                                                                    * {
-                                                                                                        margin: 0;
-                                                                                                        padding: 0;
-                                                                                                        font-size: 1vw;
-                                                                                                        box-sizing: border-box;
-                                                                                                        font-family: Arial, Helvetica, sans-serif;
-                                                                                                        header {
-                                                                                                            width: 100%;
-                                                                                                            background-color: #5F1A1B;
-                                                                                                            height: 12vw;
-                                                                                                            display: flex;
-                                                                                                            flex-direction: row;
-                                                                                                            .topleft {
-                                                                                                                display: flex;
-                                                                                                                padding: 4vw 3vw;
-                                                                                                                justify-content: flex-start;
-                                                                                                                flex-basis: 30%;
-                                                                                                                .logotyp {
-                                                                                                                    width: 90%;
-                                                                                                                    height: 4.5vw;
-                                                                                                                }
-                                                                                                            }
-                                                                                                            .topright {
-                                                                                                                display: flex;
-                                                                                                                flex-basis: 70%;
-                                                                                                                justify-content: flex-end;
-                                                                                                                padding: 2vw 3vw;
-                                                                                                                .baner1 {
-                                                                                                                    width: 60vw;
-                                                                                                                    height: 8vw;
-                                                                                                                }
-                                                                                                            }
-                                                                                                        }
-                                                                                                        #menu {
-                                                                                                            width: 100%;
-                                                                                                            height: 3em;
-                                                                                                            background-color: black;
-                                                                                                            position: sticky;
-                                                                                                            top: 0px;
-                                                                                                            ul {
-                                                                                                                display: flex;
-                                                                                                                li {
-                                                                                                                    list-style: none;
-                                                                                                                    margin: 0.5vw 3vw;
-                                                                                                                    a {
-                                                                                                                        text-decoration: none;
-                                                                                                                        font-size: 1.8vw;
-                                                                                                                        color: white;
-                                                                                                                    }
-                                                                                                                }
-                                                                                                            }
-                                                                                                        }
-                                                                                                        main {
-                                                                                                            margin: 2vw 3vw;
-                                                                                                            .date {
-                                                                                                                text-align: right;
-                                                                                                            }
-                                                                                                            section {
-                                                                                                                width: 100%;
-                                                                                                                height: 42vw;
-                                                                                                                margin-bottom: 3vw;
-                                                                                                                h3 {
-                                                                                                                    color: rgba(26, 26, 26, 0.7);
-                                                                                                                    background-color: #DDDDDD;
-                                                                                                                    text-align: left;
-                                                                                                                    font-size: 2vw;
-                                                                                                                }
-                                                                                                                .container {
-                                                                                                                    margin-top: 1vw;
-                                                                                                                    display: flex;
-                                                                                                                    flex-direction: row;
-                                                                                                                    width: 100%;
-                                                                                                                    height: 97%;
-                                                                                                                    margin-bottom: 10vw;
-                                                                                                                    .row {
-                                                                                                                        display: flex;
-                                                                                                                        flex-wrap: wrap;
-                                                                                                                        width: 80%;
-                                                                                                                        height: 100%;
-                                                                                                                        justify-content: space-between;
-                                                                                                                        flex-basis: 87%;
-                                                                                                                        .row1 {
-                                                                                                                            width: 100%;
-                                                                                                                            height: 44%;
-                                                                                                                            flex-flow: row;
-                                                                                                                            display: flex;
-                                                                                                                            justify-content: space-between;
-                                                                                                                            .item {
-                                                                                                                                background-color: black;
-                                                                                                                                width: 31%;
-                                                                                                                                height: 18vw;
-                                                                                                                                a {
-                                                                                                                                    text-decoration: none;
-                                                                                                                                    h4 {
-                                                                                                                                        background-color: black;
-                                                                                                                                        color: white;
-                                                                                                                                        text-align: left;
-                                                                                                                                        font-size: 1.2vw;
-                                                                                                                                        padding: 0.5vw 1.2vw;
-                                                                                                                                        margin-top: 13.5vw;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                            #one {
-                                                                                                                                background-image: url(../img/nasa.png);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                            #two {
-                                                                                                                                background-image: url(../img/eu.png);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                            #three {
-                                                                                                                                background-image: url(../img/jeff.png);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                            #four {
-                                                                                                                                background-image: url(../img/polar.png);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                            #fifth {
-                                                                                                                                background-image: url(../img/musk.jpg);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                            #sixth {
-                                                                                                                                background-image: url(../img/snowden.jpg);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                        .row2 {
-                                                                                                                            width: 100%;
-                                                                                                                            height: 5%;
-                                                                                                                            flex-flow: column;
-                                                                                                                            margin: 1vw 0;
-                                                                                                                        }
-                                                                                                                        .row3 {
-                                                                                                                            width: 100%;
-                                                                                                                            height: 50%;
-                                                                                                                            flex-flow: row;
-                                                                                                                            display: flex;
-                                                                                                                            justify-content: space-between;
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                    .aside {
-                                                                                                                        width: 100%;
-                                                                                                                        height: 100%;
-                                                                                                                        flex-basis: 13%;
-                                                                                                                        margin-left: 1vw;
-                                                                                                                        img {
-                                                                                                                            width: 100%;
-                                                                                                                            height: 100%;
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                }
-                                                                                                                .container2 {
-                                                                                                                    margin: 1vw 0 3vw;
-                                                                                                                    display: flex;
-                                                                                                                    flex-direction: row;
-                                                                                                                    width: 100%;
-                                                                                                                    height: 55vw;
-                                                                                                                    .row3 {
-                                                                                                                        display: flex;
-                                                                                                                        flex-wrap: wrap;
-                                                                                                                        width: 80%;
-                                                                                                                        height: 100%;
-                                                                                                                        justify-content: space-between;
-                                                                                                                        flex-basis: 87%;
-                                                                                                                        .row4 {
-                                                                                                                            width: 100%;
-                                                                                                                            height: 40%;
-                                                                                                                            flex-flow: row;
-                                                                                                                            display: flex;
-                                                                                                                            justify-content: space-between;
-                                                                                                                            .item2 {
-                                                                                                                                background-color: black;
-                                                                                                                                width: 44%;
-                                                                                                                                height: 25vw;
-                                                                                                                                a {
-                                                                                                                                    text-decoration: none;
-                                                                                                                                    h4 {
-                                                                                                                                        background-color: black;
-                                                                                                                                        color: white;
-                                                                                                                                        text-align: left;
-                                                                                                                                        font-size: 1.7vw;
-                                                                                                                                        padding: 2vw 1.2vw 1vw;
-                                                                                                                                        margin-top: 18vw;
-                                                                                                                                        height: 6vw;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                            #seventh {
-                                                                                                                                background-image: url(../img/iphone.png);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                            #eight {
-                                                                                                                                background-image: url(../img/smart.png);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                            #ninth {
-                                                                                                                                background-image: url(../img/one.png);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                            #tenth {
-                                                                                                                                background-image: url(../img/phone.png);
-                                                                                                                                background-size: contain;
-                                                                                                                                background-repeat: no-repeat;
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                        .space {
-                                                                                                                            width: 100%;
-                                                                                                                            height: 2vw;
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                    .aside2 {
-                                                                                                                        width: 100%;
-                                                                                                                        height: 55vw;
-                                                                                                                        flex-basis: 13%;
-                                                                                                                        margin-left: 1vw;
-                                                                                                                        img {
-                                                                                                                            width: 100%;
-                                                                                                                            height: 100%;
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                }
-                                                                                                            }
-                                                                                                            .link {
-                                                                                                                width: 100%;
-                                                                                                                text-align: center;
-                                                                                                                img {
-                                                                                                                    width: 70vw;
-                                                                                                                }
-                                                                                                            }
-                                                                                                        }
-                                                                                                        footer {
-                                                                                                            background-color: black;
-                                                                                                            width: 100%;
-                                                                                                            height: 16vw;
-                                                                                                            margin-top: 18vw;
-                                                                                                            #menubottom {
-                                                                                                                width: 100%;
-                                                                                                                height: 3em;
-                                                                                                                background-color: black;
-                                                                                                                position: sticky;
-                                                                                                                top: 0px;
-                                                                                                                ul {
-                                                                                                                    display: flex;
-                                                                                                                    li {
-                                                                                                                        list-style: none;
-                                                                                                                        margin: 2vw 3vw;
-                                                                                                                        a {
-                                                                                                                            text-decoration: none;
-                                                                                                                            font-size: 1.8vw;
-                                                                                                                            color: white;
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                }
-                                                                                                            }
-                                                                                                            .footerimg {
-                                                                                                                display: flex;
-                                                                                                                justify-content: flex-end;
-                                                                                                                padding-right: 5vw;
-                                                                                                                padding-top: 4vw;
-                                                                                                                width: 100%;
-                                                                                                                .logotyp {
-                                                                                                                    width: 22%;
-                                                                                                                    height: 4vw;
-                                                                                                                }
-                                                                                                            }
-                                                                                                            h4 {
-                                                                                                                display: block;
-                                                                                                                text-align: center;
-                                                                                                                color: white;
-                                                                                                                height: 5vw;
-                                                                                                                padding-top: 3vw;
-                                                                                                            }
-                                                                                                        }
-                                                                                                    }
-                                                                                                    
-                                                                                                    @media (max-width: 480px) {
-                                                                                                        body {
-                                                                                                            display: flex;
-                                                                                                            flex-flow: column;
-                                                                                                            flex-wrap: wrap;
-                                                                                                            .date {
-                                                                                                                display: none;
-                                                                                                            }
-                                                                                                            .topright {
-                                                                                                                display: none;
-                                                                                                            }
-                                                                                                            .topleft {
-                                                                                                                display: flex;
-                                                                                                                padding: 4vw 3vw;
-                                                                                                                flex-basis: 100%;
-                                                                                                                .logotyp {
-                                                                                                                    width: 32vw;
-                                                                                                                    height: 6vw;
-                                                                                                                    justify-content: center;
-                                                                                                                }
-                                                                                                            }
-                                                                                                            #menu {
-                                                                                                                width: 100%;
-                                                                                                                height: 4em;
-                                                                                                                background-color: black;
-                                                                                                                position: sticky;
-                                                                                                                top: 0px;
-                                                                                                                padding: 0.5vw 0;
-                                                                                                                ul {
-                                                                                                                    padding: 0 30vw;
-                                                                                                                    display: flex;
-                                                                                                                    justify-content: space-between;
-                                                                                                                }
-                                                                                                            }
-                                                                                                            footer {
-                                                                                                                width: 100%;
-                                                                                                                height: 22.5em;
-                                                                                                                background-color: black;
-                                                                                                                position: sticky;
-                                                                                                                top: 0px;
-                                                                                                                padding: 0.5vw 0;
-                                                                                                                ul {
-                                                                                                                    padding: 0 30vw;
-                                                                                                                    display: flex;
-                                                                                                                    justify-content: space-between;
-                                                                                                                }
-                                                                                                                .footerimg {
-                                                                                                                    display: flex;
-                                                                                                                    justify-content: center;
-                                                                                                                    width: 100%;
-                                                                                                                    padding: 5vw 0;
-                                                                                                                    .logotyp {
-                                                                                                                        width: 25%;
-                                                                                                                    }
-                                                                                                                }
-                                                                                                                h4 {
-                                                                                                                    padding: 1vw;
-                                                                                                                    font-size: 2vw;
-                                                                                                                }
-                                                                                                            }
-                                                                                                            .link {
-                                                                                                                display: none;
-                                                                                                            }
-                                                                                                            .aside2 {
-                                                                                                                display: none;
-                                                                                                            }
-                                                                                                        }
-                                                                                                    }
+ * {
+     margin: 0;
+     padding: 0;
+     font-size: 1vw;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     header {
+         width: 100%;
+         background-color: #5F1A1B;
+         height: 12vw;
+         display: flex;
+         flex-direction: row;
+         .topleft {
+             display: flex;
+             padding: 4vw 3vw;
+             justify-content: flex-start;
+             flex-basis: 30%;
+             .logotyp {
+                 width: 90%;
+                 height: 4.5vw;
+             }
+         }
+         .topright {
+             display: flex;
+             flex-basis: 70%;
+             justify-content: flex-end;
+             padding: 2vw 3vw;
+             .baner1 {
+                 width: 60vw;
+                 height: 8vw;
+             }
+         }
+     }
+     #menu {
+         width: 100%;
+         height: 3em;
+         background-color: black;
+         position: sticky;
+         top: 0px;
+         ul {
+             display: flex;
+             li {
+                 list-style: none;
+                 margin: 0.5vw 3vw;
+                 a {
+                     text-decoration: none;
+                     font-size: 1.8vw;
+                     color: white;
+                 }
+             }
+         }
+     }
+     main {
+         margin: 2vw 3vw;
+         .date {
+             text-align: right;
+         }
+         section {
+             width: 100%;
+             height: 42vw;
+             margin-bottom: 3vw;
+             h3 {
+                 color: rgba(26, 26, 26, 0.7);
+                 background-color: #DDDDDD;
+                 text-align: left;
+                 font-size: 2vw;
+             }
+             .container {
+                 margin-top: 1vw;
+                 display: flex;
+                 flex-direction: row;
+                 width: 100%;
+                 height: 97%;
+                 margin-bottom: 10vw;
+                 .row {
+                     display: flex;
+                     flex-wrap: wrap;
+                     width: 80%;
+                     height: 100%;
+                     justify-content: space-between;
+                     flex-basis: 87%;
+                     .row1 {
+                         width: 100%;
+                         height: 44%;
+                         flex-flow: row;
+                         display: flex;
+                         justify-content: space-between;
+                         .item {
+                             background-color: black;
+                             width: 31%;
+                             height: 18vw;
+                             a {
+                                 text-decoration: none;
+                                 h4 {
+                                     background-color: black;
+                                     color: white;
+                                     text-align: left;
+                                     font-size: 1.2vw;
+                                     padding: 0.5vw 1.2vw;
+                                     margin-top: 13.5vw;
+                                 }
+                             }
+                         }
+                         #one {
+                             background-image: url(../img/nasa.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                         #two {
+                             background-image: url(../img/eu.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                         #three {
+                             background-image: url(../img/jeff.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                         #four {
+                             background-image: url(../img/polar.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                         #fifth {
+                             background-image: url(../img/musk.jpg);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                         #sixth {
+                             background-image: url(../img/snowden.jpg);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                     }
+                     .row2 {
+                         width: 100%;
+                         height: 5%;
+                         flex-flow: column;
+                         margin: 1vw 0;
+                     }
+                     .row3 {
+                         width: 100%;
+                         height: 50%;
+                         flex-flow: row;
+                         display: flex;
+                         justify-content: space-between;
+                     }
+                 }
+                 .aside {
+                     width: 100%;
+                     height: 100%;
+                     flex-basis: 13%;
+                     margin-left: 1vw;
+                     img {
+                         width: 100%;
+                         height: 100%;
+                     }
+                 }
+             }
+             .container2 {
+                 margin: 1vw 0 3vw;
+                 display: flex;
+                 flex-direction: row;
+                 width: 100%;
+                 height: 55vw;
+                 .row3 {
+                     display: flex;
+                     flex-wrap: wrap;
+                     width: 80%;
+                     height: 100%;
+                     justify-content: space-between;
+                     flex-basis: 87%;
+                     .row4 {
+                         width: 100%;
+                         height: 40%;
+                         flex-flow: row;
+                         display: flex;
+                         justify-content: space-between;
+                         .item2 {
+                             background-color: black;
+                             width: 44%;
+                             height: 25vw;
+                             a {
+                                 text-decoration: none;
+                                 h4 {
+                                     background-color: black;
+                                     color: white;
+                                     text-align: left;
+                                     font-size: 1.7vw;
+                                     padding: 2vw 1.2vw 1vw;
+                                     margin-top: 18vw;
+                                     height: 6vw;
+                                 }
+                             }
+                         }
+                         #seventh {
+                             background-image: url(../img/iphone.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                         #eight {
+                             background-image: url(../img/smart.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                         #ninth {
+                             background-image: url(../img/one.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                         #tenth {
+                             background-image: url(../img/phone.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                         }
+                     }
+                     .space {
+                         width: 100%;
+                         height: 2vw;
+                     }
+                 }
+                 .aside2 {
+                     width: 100%;
+                     height: 55vw;
+                     flex-basis: 13%;
+                     margin-left: 1vw;
+                     img {
+                         width: 100%;
+                         height: 100%;
+                     }
+                 }
+             }
+         }
+         .link {
+             width: 100%;
+             text-align: center;
+             img {
+                 width: 70vw;
+             }
+         }
+     }
+     footer {
+         background-color: black;
+         width: 100%;
+         height: 16vw;
+         margin-top: 18vw;
+         #menubottom {
+             width: 100%;
+             height: 3em;
+             background-color: black;
+             position: sticky;
+             top: 0px;
+             ul {
+                 display: flex;
+                 li {
+                     list-style: none;
+                     margin: 2vw 3vw;
+                     a {
+                         text-decoration: none;
+                         font-size: 1.8vw;
+                         color: white;
+                     }
+                 }
+             }
+         }
+         .footerimg {
+             display: flex;
+             justify-content: flex-end;
+             padding-right: 5vw;
+             padding-top: 4vw;
+             width: 100%;
+             .logotyp {
+                 width: 22%;
+                 height: 4vw;
+             }
+         }
+         h4 {
+             display: block;
+             text-align: center;
+             color: white;
+             height: 5vw;
+             padding-top: 3vw;
+         }
+     }
+ }
+ 
+ @media (max-width: 480px) {
+     body {
+         display: flex;
+         flex-flow: column;
+         flex-wrap: wrap;
+         .date {
+             display: none;
+         }
+         .topright {
+             display: none;
+         }
+         .topleft {
+             display: flex;
+             padding: 4vw 3vw;
+             flex-basis: 100%;
+             .logotyp {
+                 width: 32vw;
+                 height: 6vw;
+                 justify-content: center;
+             }
+         }
+         #menu {
+             width: 100%;
+             height: 4em;
+             background-color: black;
+             position: sticky;
+             top: 0px;
+             padding: 0.5vw 0;
+             ul {
+                 padding: 0 30vw;
+                 display: flex;
+                 justify-content: space-between;
+             }
+         }
+         footer {
+             width: 100%;
+             height: 22.5em;
+             background-color: black;
+             position: sticky;
+             top: 0px;
+             padding: 0.5vw 0;
+             ul {
+                 padding: 0 30vw;
+                 display: flex;
+                 justify-content: space-between;
+             }
+             .footerimg {
+                 display: flex;
+                 justify-content: center;
+                 width: 100%;
+                 padding: 5vw 0;
+                 .logotyp {
+                     width: 25%;
+                 }
+             }
+             h4 {
+                 padding: 1vw;
+                 font-size: 2vw;
+             }
+         }
+         .link {
+             display: none;
+         }
+         .aside2 {
+             display: none;
+         }
+     }
+ }
