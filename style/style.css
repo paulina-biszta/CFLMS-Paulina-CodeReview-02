@@ -502,5 +502,8 @@
   body .aside2 {
     display: none;
   }
+  body .aside {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
